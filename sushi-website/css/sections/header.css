@@ -11,6 +11,52 @@
 }
 
 .header__logo-overlay {
+    width: 100%;
+    position: absolute;
+    inset: 0px;
     background-color: var(--primary-color);
-    background-color: red;
+    z-index: 1;
+}
+
+.header__logo h4 {
+    color: white;
+    padding: 20px;
+    z-index: 2;
+}
+
+
+/* missing nav bar */
+
+.header__menu,
+.header__menu-mobile {
+  padding: 20px;
+  flex: 0.6;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+  list-style: none;
+}
+
+.header__menu li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.header__menu li img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.header__menu-mobile {
+  display: none;
+  gap: 20px;
+
+  position: relative;
 }
