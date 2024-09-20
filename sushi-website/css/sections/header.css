@@ -9,3 +9,8 @@
     position: relative;
     padding: 20px;
 }
+
+.header__logo-overlay {
+    background-color: var(--primary-color);
+    background-color: red;
+}
