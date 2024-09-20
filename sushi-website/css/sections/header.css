@@ -1,36 +1,35 @@
 .header__nav {
-    display: flex;
-    overflow: hidden;
+  display: flex;
+  overflow: hidden;
 }
 
 .header__logo {
-    display: flex;
-    flex: 1;
-    position: relative;
-    padding: 20px;
+  display: flex;
+  flex: 1;
+  position: relative;
+  padding: 20px;
 }
 
 .header__logo-overlay {
-    width: 100%;
-    position: absolute;
-    inset: 0px;
-    background-color: var(--primary-color);
-    z-index: 1;
+  width: 100%;
+  position: absolute;
+  inset: 0px;
+  background-color: var(--primary-color);
+  z-index: 1;
 }
 
 .header__logo h4 {
-    color: white;
-    padding: 20px;
-    z-index: 2;
+  color: white;
+  padding: 20px;
+  z-index: 2;
 }
-
 
 /* missing nav bar */
 
 .header__menu,
 .header__menu-mobile {
   padding: 20px;
-  flex: 0.6;
+  flex: 1.225;
   display: flex;
   justify-content: flex-end;
   align-items: center;
