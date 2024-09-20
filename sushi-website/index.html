@@ -4,11 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./public/sushi.png">
     <title>Sushi Website</title>
   </head>
   <body>
-    hello
-    <div id="app"></div>
+
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4>Sushi</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu">
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><img src="./assets/search.svg" alt="menu"></li>
+        </ul>
+
+        <ul class="header__menu-mobile">
+          <li><img src="./assets/menu.svg" alt="menu"></li>
+        </ul>
+      </nav>
+    </header>
+
     <script src="./js/script.js"></script>
   </body>
 </html>
