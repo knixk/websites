@@ -76,7 +76,8 @@ body {
 
 .blog-image {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    height: 70%;
 }
 
 .blog {
@@ -153,12 +154,57 @@ body {
 .social .left {
 }
 
-.footer
+.footer {
+    background-color: #F6F7F6;
+}
 
 /* subscribe */
 
 
 .subscribe {
-    background-color: #F6F7F6;
     color: black;
+    margin: 4rem 0;
+    padding: 1rem 0;
+
+}
+
+.subscribe .footer-heading {
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.subscribe .footer-description {
+    line-height: 2rem;
+}
+
+.subscribe .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe .form-container .input, .btn-submit {
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-container .left {
+    flex: 0.7;
+}
+
+.social {
+    background-color: black ;
+    color: white;
+    height: 150px;    
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    
 }
