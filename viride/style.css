@@ -4,7 +4,7 @@
   --gray-color: #e2f0e4;
   --heading-size: 3.5rem;
   --font-size: 10px;
-  --secondary-height: calc(100vh - 150px);
+  --secondary-height: 500px;
   --light-green: #d6e6d8;
   --margin-top: 4rem;
 }
@@ -22,9 +22,23 @@ body {
 
 .nav {
   background-color: var(--light);
-  opacity: 0.9;
+  opacity: 0.93;
   filter: blur(0.2);
   position: sticky;
+}
+
+.nav ul .link-anchor {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.current {
+  color: green !important;
+}
+
+.logo-img {
+  height: 50px;
+  object-fit: contain;
 }
 
 .container {
@@ -99,7 +113,6 @@ li {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin-top: var(--margin-top);
 }
 
 .vision {
