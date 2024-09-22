@@ -67,11 +67,11 @@ body {
 .grid {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
     gap: 30px;
     justify-content: center;
-
-    padding: 1rem 0;
+    padding: 4rem 0;
+    max-width: 1200px;
 }
 
 .blog-image {
@@ -84,4 +84,81 @@ body {
     width: 350px;
     justify-self: center;
     padding-bottom: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.blog-title {
+    padding-top: 10px;
+}
+
+.blog-link {
+    display: block;
+}
+
+.blog-date {
+    padding: 10px 0;
+    display: block;
+}
+
+.blog-info {
+    padding: 0 1rem;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-btn {
+    padding: 0.7rem 1.2rem;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.pagination-btn:hover {
+    padding: 0.7rem 1.2rem;
+    outline: none;
+    border: none;
+    background-color: rgb(200, 200, 200);
+}
+
+/* socials */
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social ul {
+    display: flex;
+    gap: 10px;
+}
+
+.social ul li {
+    list-style-type: none;
+}
+
+.social ul li a {
+    text-decoration: none;
+}
+
+.social .left {
+}
+
+.footer
+
+/* subscribe */
+
+
+.subscribe {
+    background-color: #F6F7F6;
+    color: black;
 }
