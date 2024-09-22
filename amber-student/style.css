@@ -1,6 +1,8 @@
 .header {
-  background-image: url('https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90');
+  background: rgba(0, 0, 0, 0.2) url("https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90");
   text-align: center;
+  object-fit: contain;
+  background-blend-mode: darken;
 }
 
 .nav {
@@ -15,7 +17,6 @@
 .nav ul {
   display: flex;
   gap: 10px;
-
 }
 
 .nav ul li {
