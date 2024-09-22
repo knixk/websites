@@ -22,6 +22,9 @@ body {
 
 .nav {
   background-color: var(--light);
+  opacity: 0.9;
+  filter: blur(0.2);
+  position: sticky;
 }
 
 .container {
@@ -60,8 +63,11 @@ li {
   left: 20vw;
 }
 
-.hero {
+.header {
   background-image: url("https://temp.viride.net/wp-content/uploads/2022/01/shutterstock_1654861681-scaled.jpg");
+}
+
+.hero {
   display: flex;
   align-items: center;
   height: calc(100vh - 150px);
@@ -148,10 +154,67 @@ li {
   background-color: var(--light);
 }
 
+.invest-container h2 {
+  color: var(--dark);
+}
+
 .invest-container img {
   height: 350px;
 }
 
 .invest-container .right {
+}
 
+.cultivation-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3rem 0;
+}
+
+.cultivation-container img {
+  height: 300px;
+}
+
+.cultivation-container h2 {
+  color: var(--dark);
+}
+
+.products img {
+  height: 300px;
+}
+
+.green-red {
+  display: flex;
+  gap: 2rem;
+  padding-top: 1.3rem;
+}
+
+.products-container {
+  padding: 3rem 0;
+}
+
+.products-container h2 {
+  color: var(--dark);
+}
+
+.message {
+  display: block;
+}
+
+.contact-container {
+  display: flex;
+  padding: 3rem 0;
+  gap: 4rem;
+}
+
+.input {
+  background-color: var(--light);
+  padding: 1rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem 0;
 }
