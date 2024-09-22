@@ -1,3 +1,50 @@
 .header {
   background-image: url('https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90');
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 1rem 2.5rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 10px;
+
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  color: white;
+}
+
+/* hero */
+.hero-title {
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+.hero-subtitle {
+  font-weight: bold;
+  padding: 0.6rem 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
