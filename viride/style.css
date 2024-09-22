@@ -1,7 +1,10 @@
 :root {
   --dark: #323233;
-  --light: rgb(240, 240, 240)
+  --light: rgb(240, 240, 240);
   --gray-color: #e2f0e4;
+  --heading-size: 3.5rem;
+  --font-size: 10px;
+  --secondary-height: calc(100vh - 150px);
 }
 
 * {
@@ -60,25 +63,40 @@ li {
   display: flex;
   align-items: center;
   height: calc(100vh - 150px);
+  /* object-fit: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .vision {
-  height: calc(100vh - 150px);
+  height: var(--secondary-height);
   background-color: var(--light);
 }
 
-.hero-container h2 {
-  font-size: 3.5rem;
+.heading {
+  font-size: var(--heading-size);
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: aliceblue;
 }
 
-.hero-btn {
+.hero-container h2 {
+  color: var(--light);
+}
+
+.vision-container h2 {
+  color: var(--dark);
+}
+
+.btn {
   border: none;
   background-color: yellow;
   padding: 0.6rem 1rem;
   margin-top: 10px;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.subtitle {
+  color: green;
+  text-transform: capitalize;
 }
