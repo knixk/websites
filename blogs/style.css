@@ -1,42 +1,80 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    background-color: red;
-    padding: 2rem 0;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  gap: 1rem;
 }
 
 .nav ul {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .nav img {
-    width: 200px;
-    object-fit: contain;
+  width: 200px;
+  object-fit: contain;
 }
 
 .nav ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-btn {
-    background-color: black;
+  background-color: black;
+  color: white;
+  padding: 1.2rem 3rem;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+/* read our blog  */
+.read-blog {
+  padding: 5rem 0;
+  background-image: url('https://cdn.backpacker.com/wp-content/uploads/2014/11/lit-up-tent-against-night-sky.jpg');
+  /* object-fit: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 2rem 0;
+  border-radius: 30px;
+
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-left: 4rem;
     color: white;
-    padding: 1.2rem 3rem;
-    border-radius: 50px;
-    font-size: 1.3rem;
-    text-transform: uppercase;
 }
 
 
-/* read our blog  */
+/* blogs */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.blog-image {
+    width: 400px;
+    object-fit: contain;
+}
+
+.blog {
+    background-color: #cecece;
+}
