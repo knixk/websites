@@ -5,6 +5,7 @@
   --heading-size: 3.5rem;
   --font-size: 10px;
   --secondary-height: calc(100vh - 150px);
+  --light-green: #d6e6d8;
 }
 
 * {
@@ -87,6 +88,17 @@ li {
   color: var(--dark);
 }
 
+.vision-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.vision {
+  background-color: var(--light-green);
+}
+
 .btn {
   border: none;
   background-color: yellow;
@@ -99,4 +111,20 @@ li {
 .subtitle {
   color: green;
   text-transform: capitalize;
+}
+
+.vision-container img {
+  height: 220px;
+}
+
+.progress-container {
+  display: flex;
+}
+
+.progress-container img {
+  height: 300px;
+}
+
+.progress {
+  background-color: var(--light);
 }
