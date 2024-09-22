@@ -2,12 +2,22 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: red;
+    padding: 2rem 0;
     gap: 1rem;
 }
 
 .nav ul {
     display: flex;
     gap: 1rem;
+    align-items: center;
+}
+
+.nav img {
+    width: 200px;
+    object-fit: contain;
 }
 
 .nav ul li {
@@ -16,7 +26,17 @@
 
 .nav ul li a {
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .nav-btn {
+    background-color: black;
+    color: white;
+    padding: 1.2rem 3rem;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
 }
+
+
+/* read our blog  */
