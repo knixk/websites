@@ -78,7 +78,8 @@ li {
 }
 
 .header {
-  background-image: url("https://temp.viride.net/wp-content/uploads/2022/01/shutterstock_1654861681-scaled.jpg");
+  background: rgba(0, 0, 0, 0.3) url("https://temp.viride.net/wp-content/uploads/2022/01/shutterstock_1654861681-scaled.jpg");
+  background-blend-mode: darken;
 }
 
 .hero {
