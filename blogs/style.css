@@ -64,17 +64,24 @@ body {
 
 /* blogs */
 
-.blogs {
+.grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    justify-content: center;
+
+    padding: 1rem 0;
 }
 
 .blog-image {
-    width: 400px;
+    width: 100%;
     object-fit: contain;
 }
 
 .blog {
-    background-color: #cecece;
+    background-color: #f2f2f2;
+    width: 350px;
+    justify-self: center;
+    padding-bottom: 1rem;
 }
