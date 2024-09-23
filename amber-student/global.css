@@ -6,9 +6,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid plum; */
+  border: 1px solid plum;
 }
 
 .container {
   padding: 1rem 2.5rem;
 }
+
